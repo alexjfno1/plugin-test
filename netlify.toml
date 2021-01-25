@@ -1,9 +1,9 @@
 [build]
-  command = "echo \"BUILDING...\""
+  command = "echo $VALUE"
   publish = "out"
 
 [[plugins]]
-   package = "plugin-one"
+  package = "plugin-one"
 
 [[plugins]]
   package = "plugin-two"
