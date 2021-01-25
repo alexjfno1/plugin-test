@@ -1,0 +1,13 @@
+{
+  "name": "plugin-test",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "plugin-one",
+    "plugin-two"
+  ],
+  "dependencies": {
+    "plugin-one": "^0.0.1",
+    "plugin-two": "^0.0.1"
+  }
+}

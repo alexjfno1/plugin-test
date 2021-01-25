@@ -1,0 +1,9 @@
+[build]
+  command = "echo blah"
+  publish = "out"
+
+[[plugins]]
+   package = "plugin-one"
+
+[[plugins]]
+  package = "plugin-two"
