@@ -1,7 +1,8 @@
 module.exports = {
-    console.log('========', process.env.VALUE);
+  onPreBuild: () => {
+    console.log("VALUE ========>", process.env.VALUE);
   },
   onPostBuild: () => {
-    console.log('========', process.env.VALUE);
+    console.log("VALUE ========>", process.env.VALUE);
   },
 };

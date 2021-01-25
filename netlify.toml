@@ -1,5 +1,5 @@
 [build]
-  command = "echo blah"
+  command = "echo \"BUILDING...\""
   publish = "out"
 
 [[plugins]]
